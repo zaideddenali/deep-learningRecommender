@@ -1,0 +1,27 @@
+# Model Hyperparameters
+model:
+  embedding_dim: 64
+  layers: [256, 128, 64]
+  dropout: 0.2
+  learning_rate: 0.001
+  weight_decay: 0.00001
+
+# Training Configuration
+training:
+  batch_size: 1024
+  epochs: 20
+  early_stopping_patience: 5
+  device: "auto" # "cuda", "cpu", or "auto"
+  checkpoint_dir: "checkpoints"
+
+# Data Configuration
+data:
+  raw_path: "data/raw/ratings.csv"
+  processed_path: "data/processed/"
+  test_size: 0.2
+  top_k: 10
+
+# Inference Configuration
+inference:
+  model_path: "checkpoints/best_model.pth"
+  num_recommendations: 10
