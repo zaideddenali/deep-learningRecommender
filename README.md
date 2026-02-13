@@ -197,4 +197,4 @@ This project demonstrates advanced skills in:
 *   Separating training and inference pipelines.
 *   Creating comprehensive engineering documentation.
 
-This positions you as a strong candidate for roles in FAANG MLE, Recommender System teams, and Applied Deep Learning Engineering, focusing on large-scale ML systems.
+
